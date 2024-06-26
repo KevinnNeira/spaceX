@@ -1,0 +1,23 @@
+@import url(variables.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111226;
+}
+.grid__container__main{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 1;
+}
+.container__grid{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    height: 100vh;
+    border: 1px solid red;
+}
