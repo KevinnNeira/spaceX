@@ -3,7 +3,7 @@ import {
     getAllRocketsId
 } from "../components/rockets.js";
 import { 
-    nameRockets 
+    nameRockets, serialCapsule 
 } from "./title.js";
 import { 
     informationRockets,
@@ -178,13 +178,6 @@ const getCapsulesId = async(e)=>{
         val.classList.remove('activo');
     }
     e.target.classList.add('activo');
-    
-
-    // let Rocket = await getAllRocketsId(e.target.id);
-    // console.log(Rocket);
-
-    // await informationRockets(Rocket.country, Rocket.description)
-    
 }
 
 export const paginationCapsules = async(page=1, limit=4)=>{  
@@ -219,13 +212,5 @@ export const paginationCapsules = async(page=1, limit=4)=>{
     console.log(div);
     let [back, a1,a2,a3,a4, next] = div.children
     a1.click();
-    // <div class="buttom__paginacion">
-    //     <a href="#">&laquo;</a> 
-    //     <a href="#" class="activo">1</a>
-    //     <a href="#">2</a>
-    //     <a href="#">3</a>
-    //     <a href="#">4</a>
-    //     <a href="#">&raquo;</a>
-    // </div>
     return div;
 }
