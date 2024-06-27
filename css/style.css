@@ -469,5 +469,5 @@ progress[value]::-moz-progress-bar {
     background: var(--color);
 }
 #title__Section{
-    
+    margin: 10px;
 }
