@@ -13,7 +13,9 @@ import {
 } from "./information.js";
 import { 
     tableRocketColum1, 
-    tableRocketColum2
+    tableRocketColum2,
+    tableCapsules1,
+    tableCapsule2
 } from "./tables.js";
 import { 
     informRocketEngineThrustSeaLevel, 
@@ -178,6 +180,13 @@ const getCapsulesId = async(e)=>{
         val.classList.remove('activo');
     }
     e.target.classList.add('activo');
+    
+    let Capsules = await getAllCapsules(e.target.id);
+    await clear();
+
+    await tableCapsules1(Capsules)
+    await tableCapsule2(Capsules)
+    await serialCapsule(Capsules.serial)
 }
 
 export const paginationCapsules = async(page=1, limit=4)=>{  

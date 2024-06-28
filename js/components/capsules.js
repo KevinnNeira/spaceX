@@ -25,17 +25,158 @@ export const getReuseCount  = async() =>{
         body: JSON.stringify({
             "options": {
                 "select": {
-                    "name": 1,
-                    "mass": 1
+                    "serial": 1,
+                    "reuse_count": 1
                 },
-                "sort":{
-                    "mass.kg": "desc"
-                },
-                "limit": 1
             }
         })
     }
     let res = await fetch("https://api.spacexdata.com/v4/capsules/query", config);
-    let {docs:[{mass} = maxMassRocket]} = await res.json();
-    return mass;
+    return res;
+}
+
+export const getWaterLandings = async()=>{
+    let config = {
+        headers:{
+            "content-type": "application/json"
+        },
+        method: "POST",
+        body: JSON.stringify({
+            "options": {
+                "select": {
+                    "serial": 1,
+                    "water_landings": 1
+                },
+            }  
+        })  
+    }
+    let res = await fetch("https://api.spacexdata.com/v4/capsules/query", config);
+    return res;
+}
+export const getLandLandings = async()=>{
+    let config = {
+        headers:{
+            "content-type": "application/json"
+        },
+        method: "POST",
+        body: JSON.stringify({
+            "options": {
+                "select": {
+                    "serial": 1,
+                    "land_landings": 1
+                },
+            }  
+        })  
+    }
+    let res = await fetch("https://api.spacexdata.com/v4/capsules/query", config);
+    return res;
+}
+export const getLastUpdate = async()=>{
+    let config = {
+        headers:{
+            "content-type": "application/json"
+        },
+        method: "POST",
+        body: JSON.stringify({
+            "options": {
+                "select": {
+                    "serial": 1,
+                    "last_update": 1
+                },
+            }  
+        })  
+    }
+    let res = await fetch("https://api.spacexdata.com/v4/capsules/query", config);
+    return res;
+}
+export const getLaunches = async()=>{
+    let config = {
+        headers:{
+            "content-type": "application/json"
+        },
+        method: "POST",
+        body: JSON.stringify({
+            "options": {
+                "select": {
+                    "serial": 1,
+                    "launches": [
+                        "5eb87cdeffd86e000604b330"
+                    ],
+                },
+            }  
+        })  
+    }
+    let res = await fetch("https://api.spacexdata.com/v4/capsules/query", config);
+    return res;
+}
+export const getSerial = async()=>{
+    let config = {
+        headers:{
+            "content-type": "application/json"
+        },
+        method: "POST",
+        body: JSON.stringify({
+            "options": {
+                "select": {
+                    "serial": 1,
+                },
+            }  
+        })  
+    }
+    let res = await fetch("https://api.spacexdata.com/v4/capsules/query", config);
+    return res;
+}
+export const getStatus = async()=>{
+    let config = {
+        headers:{
+            "content-type": "application/json"
+        },
+        method: "POST",
+        body: JSON.stringify({
+            "options": {
+                "select": {
+                    "serial": 1,
+                    "status": 1
+                },
+            }  
+        })  
+    }
+    let res = await fetch("https://api.spacexdata.com/v4/capsules/query", config);
+    return res;
+}
+export const getType = async()=>{
+    let config = {
+        headers:{
+            "content-type": "application/json"
+        },
+        method: "POST",
+        body: JSON.stringify({
+            "options": {
+                "select": {
+                    "serial": 1,
+                    "type": 1
+                },
+            }  
+        })  
+    }
+    let res = await fetch("https://api.spacexdata.com/v4/capsules/query", config);
+    return res;
+}
+export const getId = async()=>{
+    let config = {
+        headers:{
+            "content-type": "application/json"
+        },
+        method: "POST",
+        body: JSON.stringify({
+            "options": {
+                "select": {
+                    "serial": 1,
+                    "id": 1
+                },
+            }  
+        })  
+    }
+    let res = await fetch("https://api.spacexdata.com/v4/capsules/query", config);
+    return res;
 }
