@@ -16,7 +16,8 @@ export const getAllLaunches = async (page,limit)=>{
     console.log(data);
     return data;
 }
-export const getLaunchesId = async (id)=>{
+
+export const getAllLaunchesId = async (id)=>{
     let res = await fetch(`https://api.spacexdata.com/v4/launches/${id}`)
     let data = await res.json();
     return data;

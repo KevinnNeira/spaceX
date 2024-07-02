@@ -1,4 +1,4 @@
-export const getAllCompanys = async (page,limit)=>{
+export const getAllCores = async (page,limit)=>{
     let config = {
         headers:{
             "content-type": "application/json"
@@ -16,7 +16,8 @@ export const getAllCompanys = async (page,limit)=>{
     console.log(data);
     return data;
 }
-export const getCompanysId = async (id)=>{
+
+export const getAllCoresId = async (id)=>{
     let res = await fetch(`https://api.spacexdata.com/v4/cores/${id}`)
     let data = await res.json();
     return data;

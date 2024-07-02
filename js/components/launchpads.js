@@ -16,7 +16,8 @@ export const getAllLaunchpads = async (page,limit)=>{
     console.log(data);
     return data;
 }
-export const getLaunchpadsId = async (id)=>{
+
+export const getAllLaunchpadsId = async (id)=>{
     let res = await fetch(`https://api.spacexdata.com/v4/launchpads/${id}`)
     let data = await res.json();
     return data;

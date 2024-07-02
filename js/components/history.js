@@ -16,7 +16,8 @@ export const getAllHistory = async (page,limit)=>{
     console.log(data);
     return data;
 }
-export const getHistoryId = async (id)=>{
+
+export const getAllHistoryId = async (id)=>{
     let res = await fetch(`https://api.spacexdata.com/v4/history/${id}`)
     let data = await res.json();
     return data;

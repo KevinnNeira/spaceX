@@ -16,7 +16,8 @@ export const getAllLandpads = async (page,limit)=>{
     console.log(data);
     return data;
 }
-export const getLandpadsId = async (id)=>{
+
+export const getAllLandpadsId = async (id)=>{
     let res = await fetch(`https://api.spacexdata.com/v4/landpads/${id}`)
     let data = await res.json();
     return data;
