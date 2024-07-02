@@ -143,23 +143,50 @@ export const tableRocketColum2 = async (Rocket)=>{
         
     // </div>
 }
-export const tableCapsules1 = async(Capsules) => {
+export const tableCapsules1 = async(Capsule) => {
 
-    let information__table__1 = document.querySelector("#information__table__1");
-    information__table__1.innerHTML = "";
+    let informationn__table__1 = document.querySelector("#information__table__1");
+    informationn__table__1.innerHTML = "";
     let h3 = document.createElement("h3");
     h3.textContent = "Information capsules"
     let hr = document.createElement("hr");
     information__table__1.append(h3, hr)
 
+    let div = document.createElement("div");
+    div.classList.add("#information__table__1");
+    // 
     let div1 = document.createElement("div");
     let span1 = document.createElement("span");
-    span1.textContent = ""
+    span1.textContent = "Capsule water landings"
     let strong1 = document.createElement("strong");
-    strong1.textContent = `${(Capsules.reuse_count)}`
+    strong1.textContent = `${Capsule.water_landings}`
     div1.append(span1, strong1)
+
+    // 
+    let div2 = document.createElement("div");
+    let span2 = document.createElement("span");
+    span2.textContent = "Capsule land landings"
+    let strong2 = document.createElement("strong");
+    strong2.textContent = `${Capsule.land_landings}`
+    div2.append(span2, strong2)
+    
+    // 
+    let div3 = document.createElement("div");
+    let span3 = document.createElement("span");
+    span3.textContent = "Capsule reuse count"
+    let strong3 = document.createElement("strong");
+    strong3.textContent = `${Capsule.reuse_count}`
+    div3.append(span3, strong3)
+
+    div.append(div1, div2, div3)
+    section__information__1.append(div)
+
+    let information__table__1 = document.querySelector("#information__table__1")
+    information__table__1.innerHTML = "";
+    let information__table__2 = document.querySelector("#information__table__2")
+    information__table__2.innerHTML = "";
 }
-export const tableCapsule2 = async (Capsules)=>{
+export const tableCapsule2 = async (Capsule)=>{
     let information__table__2 = document.querySelector("#information__table__2");
     information__table__2.innerHTML = "";
     let h3 = document.createElement("h3");
