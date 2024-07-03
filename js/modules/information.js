@@ -168,7 +168,7 @@ export const informationTypeCapsule = async(type)=>{
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -199,7 +199,7 @@ export const informationStatusCapsule = async(status)=>{
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -229,7 +229,7 @@ export const informationIdCapsule = async(id)=>{
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -259,7 +259,7 @@ export const informationLastUpdateCapsule = async(last_update)=>{
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -296,7 +296,7 @@ export const informationlaunchesCapsule = async(info)=>{
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "../storage/img/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -331,10 +331,6 @@ export const informationlaunchesCapsule = async(info)=>{
     //     </div>
     // </div>
 }
-
-
-//===================================================
-
 export const imformationLaunchesImg = async(imagen)=>{
     let description__item = document.querySelector("#description__item")
     description__item.innerHTML = "";
@@ -396,7 +392,7 @@ export const imformationSuccessLaunch = async(success)=>{
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -417,7 +413,7 @@ export const informationWikiLaunc = async(wikipedia)=>{
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -438,7 +434,7 @@ export const informationVideoLaunc = async(link)=>{
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -459,7 +455,7 @@ export const informationArticleLaunc = async(link)=>{
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -480,7 +476,7 @@ export const imformationIdLaunch = async(id)=>{
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -519,7 +515,7 @@ export const imformationRocketLaunch = async(Rocket)=>{
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -541,9 +537,6 @@ export const imformationRocketLaunch = async(Rocket)=>{
     description__item.append(div)
 
 }
-
-
-//==============================================
 export const imformationImageCrew = async(image)=>{
     let description__item = document.querySelector("#description__item")
     description__item.innerHTML = "";
@@ -568,7 +561,7 @@ export const informationAgencyCrew = async (agency) => {
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -589,7 +582,7 @@ export const informationIdCrew = async (id) => {
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -609,7 +602,7 @@ export const informationStatusCrew = async (status) => {
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -628,7 +621,7 @@ export const informationWikiCrew = async(wikipedia)=>{
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -653,7 +646,7 @@ export const informationLaunchCrew = async (launch) => {
         div.classList.add('description__container')
         let divFirst = document.createElement('div');
         let img = document.createElement('img');
-        img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+        img.setAttribute("src", "../storage/img/mech.svg")
         divFirst.append(img);
         
         let divLast = document.createElement('div');
@@ -678,8 +671,6 @@ export const informationLaunchCrew = async (launch) => {
     let information__table__1 = document.querySelector("#information__table__1")
     information__table__1.innerHTML = "";
 }
-
-//====================================================
 export const informationDetailsCores = async(details)=>{
     let div = document.createElement('div');
     div.classList.add('description__container')
@@ -690,7 +681,7 @@ export const informationDetailsCores = async(details)=>{
     div.style.overflowY = "auto";
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -717,7 +708,7 @@ export const informationBlockCores = async(block)=>{
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -737,7 +728,7 @@ export const informationReuse_countCores = async(reuse_count)=>{
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -757,7 +748,7 @@ export const informationRtls_attemptsCores = async(rtls_attempts)=>{
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -777,7 +768,7 @@ export const informationRtls_landingsCores = async(rtls_landings)=>{
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -797,7 +788,7 @@ export const informationAsds_attemptsCores = async(asds_attempts)=>{
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -817,7 +808,7 @@ export const informationAsds_landingsCores = async(asds_landings)=>{
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -830,15 +821,12 @@ export const informationAsds_landingsCores = async(asds_landings)=>{
 
     section__information__1.append(div)
 }
-
-//================================================================
-
 export const informationTypeDragons = async(type)=>{
     let div = document.createElement('div');
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -858,7 +846,7 @@ export const informationActive = async(active) => {
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -879,7 +867,7 @@ export const informationWikiDragon = async(wikipedia)=>{
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -905,7 +893,7 @@ export const informationDescriptionDragons = async(description)=>{
     div.style.overflowY = "auto";
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -927,7 +915,7 @@ export const informationIdDragon = async (id) => {
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -947,7 +935,7 @@ export const informationDragon1 = async (thing) => {
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -975,7 +963,7 @@ export const informationDetails = async(details)=>{
     div.style.overflowY = "auto";
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -996,7 +984,7 @@ export const informationArticle = async(link)=>{
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -1019,7 +1007,7 @@ export const informationId = async (id) => {
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -1044,7 +1032,7 @@ export const informationDate = async (date) => {
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -1064,7 +1052,7 @@ export const informationDate2 = async (date) => {
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -1077,9 +1065,6 @@ export const informationDate2 = async (date) => {
 
     section__information__1.append(div)
 }
-
-//============================================================
-
 export const informationNameLand = async (full_name) => {
     let section__information__1 = document.querySelector("#description__item")
     section__information__1.innerHTML = "";
@@ -1087,7 +1072,7 @@ export const informationNameLand = async (full_name) => {
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -1107,7 +1092,7 @@ export const informationStatusLand = async (status) => {
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -1127,7 +1112,7 @@ export const informationTypeLand = async (type) => {
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -1146,7 +1131,7 @@ export const informationWikiLand = async(wikipedia)=>{
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -1168,7 +1153,7 @@ export const informationAttemptLand = async (landing_attempts) => {
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -1188,7 +1173,7 @@ export const informationSuccesesLand = async (landing_successes) => {
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -1201,16 +1186,13 @@ export const informationSuccesesLand = async (landing_successes) => {
 
     section__information__1.append(div)
 }
-
-//=====================================================
-
 export const informationAttemptLaunch = async (launch_attempts) => {
     let section__information__1 = document.querySelector("#information__table__2")
     let div = document.createElement('div');
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
@@ -1230,7 +1212,7 @@ export const informationSuccesesLaunch = async (launch_successes) => {
     div.classList.add('description__container')
     let divFirst = document.createElement('div');
     let img = document.createElement('img');
-    img.setAttribute("src", "/storage/img/icons/iconos/mech.svg")
+    img.setAttribute("src", "../storage/img/mech.svg")
     divFirst.append(img);
     
     let divLast = document.createElement('div');
