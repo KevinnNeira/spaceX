@@ -968,7 +968,7 @@ export const informationDetails = async(details)=>{
     
     let divLast = document.createElement('div');
     let h3 = document.createElement('h3');
-    h3.textContent = "details of the success"
+    h3.textContent = "Details of the success"
     let small = document.createElement('small');
     small.textContent = details
     divLast.append(h3, small);
@@ -1057,7 +1057,7 @@ export const informationDate2 = async (date) => {
     
     let divLast = document.createElement('div');
     let h3 = document.createElement('h3');
-    h3.textContent = "event_date_unix"
+    h3.textContent = "Event date unix"
     let small = document.createElement('small');
     small.textContent = date
     divLast.append(h3, small);
@@ -1077,7 +1077,7 @@ export const informationNameLand = async (full_name) => {
     
     let divLast = document.createElement('div');
     let h3 = document.createElement('h3');
-    h3.textContent = "full_name"
+    h3.textContent = "Full Name"
     let small = document.createElement('small');
     small.textContent = full_name
     divLast.append(h3, small);
@@ -1117,7 +1117,7 @@ export const informationTypeLand = async (type) => {
     
     let divLast = document.createElement('div');
     let h3 = document.createElement('h3');
-    h3.textContent = "type"
+    h3.textContent = "Type"
     let small = document.createElement('small');
     small.textContent = type
     divLast.append(h3, small);
@@ -1136,7 +1136,7 @@ export const informationWikiLand = async(wikipedia)=>{
     
     let divLast = document.createElement('div');
     let h3 = document.createElement('h3');
-    h3.textContent = "Read more about the landpad"
+    h3.textContent = "Read more about the lauchpads"
     let a = document.createElement('a');
     a.setAttribute("href", wikipedia)
     a.setAttribute("target", "_blank")
@@ -1158,7 +1158,7 @@ export const informationAttemptLand = async (landing_attempts) => {
     
     let divLast = document.createElement('div');
     let h3 = document.createElement('h3');
-    h3.textContent = "landing_attempts"
+    h3.textContent = "Landing attempts"
     let small = document.createElement('small');
     small.textContent = landing_attempts
     divLast.append(h3, small);
@@ -1178,7 +1178,7 @@ export const informationSuccesesLand = async (landing_successes) => {
     
     let divLast = document.createElement('div');
     let h3 = document.createElement('h3');
-    h3.textContent = "landing_successes"
+    h3.textContent = "Landing successes"
     let small = document.createElement('small');
     small.textContent = landing_successes
     divLast.append(h3, small);
@@ -1197,7 +1197,7 @@ export const informationAttemptLaunch = async (launch_attempts) => {
     
     let divLast = document.createElement('div');
     let h3 = document.createElement('h3');
-    h3.textContent = "landing_attempts"
+    h3.textContent = "Landing attempts"
     let small = document.createElement('small');
     small.textContent = launch_attempts
     divLast.append(h3, small);
@@ -1217,7 +1217,7 @@ export const informationSuccesesLaunch = async (launch_successes) => {
     
     let divLast = document.createElement('div');
     let h3 = document.createElement('h3');
-    h3.textContent = "launch_successes"
+    h3.textContent = "Launch successes"
     let small = document.createElement('small');
     small.textContent = launch_successes
     divLast.append(h3, small);

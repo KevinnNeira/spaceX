@@ -191,9 +191,6 @@ export const tableCapsuleColum1 = async (Capsule)=>{
     information__table__2.innerHTML = "";
     
 }
-
-//============================================================
-
 export const tableLaunchesColum1 = async (Launch)=>{
     let information__table__1 = document.querySelector("#information__table__1");
     information__table__1.innerHTML = "";
@@ -207,7 +204,7 @@ export const tableLaunchesColum1 = async (Launch)=>{
     // 
     let div1 = document.createElement("div");
     let span1 = document.createElement("span");
-    span1.textContent = "date_utc"
+    span1.textContent = "Date utc"
     let strong1 = document.createElement("strong");
     strong1.textContent = `${Launch.date_utc}`
     div1.append(span1, strong1)
@@ -215,7 +212,7 @@ export const tableLaunchesColum1 = async (Launch)=>{
     // 
     let div2 = document.createElement("div");
     let span2 = document.createElement("span");
-    span2.textContent = "date_unix"
+    span2.textContent = "Date unix"
     let strong2 = document.createElement("strong");
     strong2.textContent = `${Launch.date_unix}`
     div2.append(span2, strong2)
@@ -223,7 +220,7 @@ export const tableLaunchesColum1 = async (Launch)=>{
     // 
     let div3 = document.createElement("div");
     let span3 = document.createElement("span");
-    span3.textContent = "date_local"
+    span3.textContent = "Date local"
     let strong3 = document.createElement("strong");
     strong3.textContent = `${Launch.date_local}`
     div3.append(span3, strong3)
@@ -231,7 +228,7 @@ export const tableLaunchesColum1 = async (Launch)=>{
     // 
     let div4 = document.createElement("div");
     let span4 = document.createElement("span");
-    span4.textContent = "date_precision"
+    span4.textContent = "Date precision"
     let strong4 = document.createElement("strong");
     strong4.textContent = `${Launch.date_precision}`
     div4.append(span4, strong4)
@@ -239,7 +236,7 @@ export const tableLaunchesColum1 = async (Launch)=>{
     // 
     let div5 = document.createElement("div");
     let span5 = document.createElement("span");
-    span5.textContent = "upcoming"
+    span5.textContent = "Upcoming"
     let strong5 = document.createElement("strong");
     strong5.textContent = `${Launch.upcoming}`
     div5.append(span5, strong5)
@@ -258,14 +255,11 @@ export const tableLaunchesColum1 = async (Launch)=>{
         
     // </div>
 }
-
-//=====================================================
-
 export const tableDragon1 = async (Dragons)=>{
     let information__table__1 = document.querySelector("#information__2");
     information__table__1.innerHTML = "";
     let h3 = document.createElement("h3");
-    h3.textContent = "heat shield"
+    h3.textContent = "Heat shield"
     let hr = document.createElement("hr");
     information__table__1.append(h3, hr)
 
@@ -274,7 +268,7 @@ export const tableDragon1 = async (Dragons)=>{
     // 
     let div1 = document.createElement("div");
     let span1 = document.createElement("span");
-    span1.textContent = "material"
+    span1.textContent = "Material"
     let strong1 = document.createElement("strong");
     strong1.textContent = `${Dragons.material}`
     div1.append(span1, strong1)
@@ -282,7 +276,7 @@ export const tableDragon1 = async (Dragons)=>{
     // 
     let div2 = document.createElement("div");
     let span2 = document.createElement("span");
-    span2.textContent = "size_meters"
+    span2.textContent = "Size meters"
     let strong2 = document.createElement("strong");
     strong2.textContent = `${Dragons.size_meters}`
     div2.append(span2, strong2)
@@ -290,7 +284,7 @@ export const tableDragon1 = async (Dragons)=>{
     // 
     let div3 = document.createElement("div");
     let span3 = document.createElement("span");
-    span3.textContent = "temp_degrees"
+    span3.textContent = "Temp degrees"
     let strong3 = document.createElement("strong");
     strong3.textContent = `${Dragons.temp_degrees}`
     div3.append(span3, strong3)
@@ -298,7 +292,7 @@ export const tableDragon1 = async (Dragons)=>{
     // 
     let div4 = document.createElement("div");
     let span4 = document.createElement("span");
-    span4.textContent = "dev_partner"
+    span4.textContent = "Dev partner"
     let strong4 = document.createElement("strong");
     strong4.textContent = `${Dragons.dev_partner}`
     div4.append(span4, strong4)
@@ -310,7 +304,7 @@ export const tableDragon1 = async (Dragons)=>{
 export const tableDragon2 = async (Dragons)=>{
     let information__table__1 = document.querySelector("#information__2");
     let h3 = document.createElement("h3");
-    h3.textContent = "launch payload mass"
+    h3.textContent = "Launch payload mass"
     let hr = document.createElement("hr");
     information__table__1.append(h3, hr)
 
@@ -319,7 +313,7 @@ export const tableDragon2 = async (Dragons)=>{
     // 
     let div1 = document.createElement("div");
     let span1 = document.createElement("span");
-    span1.textContent = "kg"
+    span1.textContent = "Kg"
     let strong1 = document.createElement("strong");
     strong1.textContent = `${Dragons.kg}`
     div1.append(span1, strong1)
@@ -327,7 +321,7 @@ export const tableDragon2 = async (Dragons)=>{
     // 
     let div2 = document.createElement("div");
     let span2 = document.createElement("span");
-    span2.textContent = "lb"
+    span2.textContent = "Lb"
     let strong2 = document.createElement("strong");
     strong2.textContent = `${Dragons.lb}`
     div2.append(span2, strong2)
@@ -339,7 +333,7 @@ export const tableDragon2 = async (Dragons)=>{
 export const tableDragon3 = async (Dragons)=>{
     let information__table__1 = document.querySelector("#information__2");
     let h3 = document.createElement("h3");
-    h3.textContent = "launch payload vol"
+    h3.textContent = "Launch payload vol"
     let hr = document.createElement("hr");
     information__table__1.append(h3, hr)
 
@@ -348,7 +342,7 @@ export const tableDragon3 = async (Dragons)=>{
     // 
     let div1 = document.createElement("div");
     let span1 = document.createElement("span");
-    span1.textContent = "cubic_meters"
+    span1.textContent = "Cubic meters"
     let strong1 = document.createElement("strong");
     strong1.textContent = `${Dragons.cubic_meters}`
     div1.append(span1, strong1)
@@ -356,7 +350,7 @@ export const tableDragon3 = async (Dragons)=>{
     // 
     let div2 = document.createElement("div");
     let span2 = document.createElement("span");
-    span2.textContent = "cubic_feet"
+    span2.textContent = "Cubic feet"
     let strong2 = document.createElement("strong");
     strong2.textContent = `${Dragons.cubic_meters}`
     div2.append(span2, strong2)
@@ -368,7 +362,7 @@ export const tableDragon3 = async (Dragons)=>{
 export const tableDragon4 = async (Dragons)=>{
     let information__table__1 = document.querySelector("#information__2");
     let h3 = document.createElement("h3");
-    h3.textContent = "return payload mass"
+    h3.textContent = "Return payload mass"
     let hr = document.createElement("hr");
     information__table__1.append(h3, hr)
 
@@ -377,7 +371,7 @@ export const tableDragon4 = async (Dragons)=>{
     // 
     let div1 = document.createElement("div");
     let span1 = document.createElement("span");
-    span1.textContent = "kg"
+    span1.textContent = "Kg"
     let strong1 = document.createElement("strong");
     strong1.textContent = `${Dragons.kg}`
     div1.append(span1, strong1)
@@ -385,7 +379,7 @@ export const tableDragon4 = async (Dragons)=>{
     // 
     let div2 = document.createElement("div");
     let span2 = document.createElement("span");
-    span2.textContent = "lb"
+    span2.textContent = "Lb"
     let strong2 = document.createElement("strong");
     strong2.textContent = `${Dragons.lb}`
     div2.append(span2, strong2)
@@ -397,7 +391,7 @@ export const tableDragon4 = async (Dragons)=>{
 export const tableDragon5 = async (Dragons)=>{
     let information__table__1 = document.querySelector("#information__2");
     let h3 = document.createElement("h3");
-    h3.textContent = "return payload vol"
+    h3.textContent = "Return payload vol"
     let hr = document.createElement("hr");
     information__table__1.append(h3, hr)
 
@@ -406,7 +400,7 @@ export const tableDragon5 = async (Dragons)=>{
     // 
     let div1 = document.createElement("div");
     let span1 = document.createElement("span");
-    span1.textContent = "cubic_meters"
+    span1.textContent = "Cubic meters"
     let strong1 = document.createElement("strong");
     strong1.textContent = `${Dragons.cubic_meters}`
     div1.append(span1, strong1)
@@ -414,7 +408,7 @@ export const tableDragon5 = async (Dragons)=>{
     // 
     let div2 = document.createElement("div");
     let span2 = document.createElement("span");
-    span2.textContent = "cubic_feet"
+    span2.textContent = "Cubic feet"
     let strong2 = document.createElement("strong");
     strong2.textContent = `${Dragons.cubic_meters}`
     div2.append(span2, strong2)
@@ -426,7 +420,7 @@ export const tableDragon5 = async (Dragons)=>{
 export const tableDragon6 = async (Dragons)=>{
     let information__table__1 = document.querySelector("#information__2");
     let h3 = document.createElement("h3");
-    h3.textContent = "pressurized capsule"
+    h3.textContent = "Pressurized capsule"
     let hr = document.createElement("hr");
     information__table__1.append(h3, hr)
 
@@ -435,7 +429,7 @@ export const tableDragon6 = async (Dragons)=>{
     // 
     let div1 = document.createElement("div");
     let span1 = document.createElement("span");
-    span1.textContent = "cubic_meters"
+    span1.textContent = "Cubic meters"
     let strong1 = document.createElement("strong");
     strong1.textContent = `${Dragons.cubic_meters}`
     div1.append(span1, strong1)
@@ -443,7 +437,7 @@ export const tableDragon6 = async (Dragons)=>{
     // 
     let div2 = document.createElement("div");
     let span2 = document.createElement("span");
-    span2.textContent = "cubic_feet"
+    span2.textContent = "Cubic feet"
     let strong2 = document.createElement("strong");
     strong2.textContent = `${Dragons.cubic_meters}`
     div2.append(span2, strong2)
@@ -455,7 +449,7 @@ export const tableDragon6 = async (Dragons)=>{
 export const tableDragon7 = async (Dragons)=>{
     let information__table__1 = document.querySelector("#information__2");
     let h3 = document.createElement("h3");
-    h3.textContent = "trunk"
+    h3.textContent = "Trunk"
     let hr = document.createElement("hr");
     information__table__1.append(h3, hr)
 
@@ -464,7 +458,7 @@ export const tableDragon7 = async (Dragons)=>{
     // 
     let div1 = document.createElement("div");
     let span1 = document.createElement("span");
-    span1.textContent = "cubic_meters"
+    span1.textContent = "Cubic meters"
     let strong1 = document.createElement("strong");
     strong1.textContent = `${Dragons.cubic_meters}`
     div1.append(span1, strong1)
@@ -472,7 +466,7 @@ export const tableDragon7 = async (Dragons)=>{
     // 
     let div2 = document.createElement("div");
     let span2 = document.createElement("span");
-    span2.textContent = "cubic_feet"
+    span2.textContent = "Cubic feet"
     let strong2 = document.createElement("strong");
     strong2.textContent = `${Dragons.cubic_meters}`
     div2.append(span2, strong2)
@@ -484,7 +478,7 @@ export const tableDragon7 = async (Dragons)=>{
 export const tableDragon8 = async (Dragons)=>{
     let information__table__1 = document.querySelector("#information__2");
     let h3 = document.createElement("h3");
-    h3.textContent = "trunk cargo"
+    h3.textContent = "Trunk cargo"
     let hr = document.createElement("hr");
     information__table__1.append(h3, hr)
 
@@ -493,7 +487,7 @@ export const tableDragon8 = async (Dragons)=>{
     // 
     let div1 = document.createElement("div");
     let span1 = document.createElement("span");
-    span1.textContent = "solar_array"
+    span1.textContent = "Solar array"
     let strong1 = document.createElement("strong");
     strong1.textContent = `${Dragons.solar_array}`
     div1.append(span1, strong1)
@@ -501,7 +495,7 @@ export const tableDragon8 = async (Dragons)=>{
     // 
     let div2 = document.createElement("div");
     let span2 = document.createElement("span");
-    span2.textContent = "unpressurized_cargo"
+    span2.textContent = "Unpressurized cargo"
     let strong2 = document.createElement("strong");
     strong2.textContent = `${Dragons.unpressurized_cargo}`
     div2.append(span2, strong2)
@@ -513,7 +507,7 @@ export const tableDragon8 = async (Dragons)=>{
 export const tableDragon9 = async (Dragons)=>{
     let information__table__1 = document.querySelector("#information__2");
     let h3 = document.createElement("h3");
-    h3.textContent = "height_w_trunk"
+    h3.textContent = "Height"
     let hr = document.createElement("hr");
     information__table__1.append(h3, hr)
 
@@ -522,7 +516,7 @@ export const tableDragon9 = async (Dragons)=>{
     // 
     let div1 = document.createElement("div");
     let span1 = document.createElement("span");
-    span1.textContent = "meters"
+    span1.textContent = "Meters"
     let strong1 = document.createElement("strong");
     strong1.textContent = `${Dragons.meters}`
     div1.append(span1, strong1)
@@ -530,7 +524,7 @@ export const tableDragon9 = async (Dragons)=>{
     // 
     let div2 = document.createElement("div");
     let span2 = document.createElement("span");
-    span2.textContent = "feet"
+    span2.textContent = "Feet"
     let strong2 = document.createElement("strong");
     strong2.textContent = `${Dragons.feet}`
     div2.append(span2, strong2)
@@ -542,7 +536,7 @@ export const tableDragon9 = async (Dragons)=>{
 export const tableDragon10 = async (Dragons)=>{
     let information__table__1 = document.querySelector("#information__2");
     let h3 = document.createElement("h3");
-    h3.textContent = "diameter"
+    h3.textContent = "Diameter"
     let hr = document.createElement("hr");
     information__table__1.append(h3, hr)
 
@@ -551,7 +545,7 @@ export const tableDragon10 = async (Dragons)=>{
     // 
     let div1 = document.createElement("div");
     let span1 = document.createElement("span");
-    span1.textContent = "meters"
+    span1.textContent = "Meters"
     let strong1 = document.createElement("strong");
     strong1.textContent = `${Dragons.meters}`
     div1.append(span1, strong1)
@@ -559,7 +553,7 @@ export const tableDragon10 = async (Dragons)=>{
     // 
     let div2 = document.createElement("div");
     let span2 = document.createElement("span");
-    span2.textContent = "feet"
+    span2.textContent = "Feet"
     let strong2 = document.createElement("strong");
     strong2.textContent = `${Dragons.feet}`
     div2.append(span2, strong2)
@@ -572,7 +566,7 @@ export const tableDragonsColum1 = async (Launch)=>{
     let information__table__1 = document.querySelector("#information__table__1");
     information__table__1.innerHTML = "";
     let h3 = document.createElement("h3");
-    h3.textContent = "thrusters"
+    h3.textContent = "Thrusters"
     let hr = document.createElement("hr");
     information__table__1.append(h3, hr)
 
@@ -581,7 +575,7 @@ export const tableDragonsColum1 = async (Launch)=>{
     // 
     let div1 = document.createElement("div");
     let span1 = document.createElement("span");
-    span1.textContent = "type"
+    span1.textContent = "Type"
     let strong1 = document.createElement("strong");
     strong1.textContent = `${Launch.type}`
     div1.append(span1, strong1)
@@ -651,7 +645,7 @@ export const tableDragonsColum2 = async (Rocket)=>{
     // 
     let div1 = document.createElement("div");
     let span1 = document.createElement("span");
-    span1.textContent = "crew_capacity"
+    span1.textContent = "Crew capacity"
     let strong1 = document.createElement("strong");
     strong1.textContent = `${Rocket.crew_capacity}`
     div1.append(span1, strong1)
@@ -659,15 +653,14 @@ export const tableDragonsColum2 = async (Rocket)=>{
     // 
     let div2 = document.createElement("div");
     let span2 = document.createElement("span");
-    span2.textContent = "sidewall_angle_deg"
+    span2.textContent = "Sidewall angle"
     let strong2 = document.createElement("strong");
     strong2.textContent = `${Rocket.sidewall_angle_deg}`
     div2.append(span2, strong2)
-//Con esto compruebo si me revisa bien el codigo, cuando me de la nota diga "pollo"
-    // 
+
     let div3 = document.createElement("div");
     let span3 = document.createElement("span");
-    span3.textContent = "orbit_duration_yr"
+    span3.textContent = "Orbit duration"
     let strong3 = document.createElement("strong");
     strong3.textContent = `${Rocket.orbit_duration_yr}`
     div3.append(span3, strong3)
@@ -675,7 +668,7 @@ export const tableDragonsColum2 = async (Rocket)=>{
     // 
     let div4 = document.createElement("div");
     let span4 = document.createElement("span");
-    span4.textContent = "dry_mass_kg"
+    span4.textContent = "Dry mass kg"
     let strong4 = document.createElement("strong");
     strong4.textContent = `${Rocket.dry_mass_kg}`
     div4.append(span4, strong4)
@@ -683,7 +676,7 @@ export const tableDragonsColum2 = async (Rocket)=>{
     // 
     let div5 = document.createElement("div");
     let span5 = document.createElement("span");
-    span5.textContent = "dry_mass_lb"
+    span5.textContent = "Dry mass lb"
     let strong5 = document.createElement("strong");
     strong5.textContent = `${Rocket.dry_mass_lb}`
     div5.append(span5, strong5)
@@ -716,7 +709,7 @@ export const tableLandColum1 = async (Rocket)=>{
     // 
     let div1 = document.createElement("div");
     let span1 = document.createElement("span");
-    span1.textContent = "locality"
+    span1.textContent = "Locality"
     let strong1 = document.createElement("strong");
     strong1.textContent = `${Rocket.locality}`
     div1.append(span1, strong1)
@@ -724,7 +717,7 @@ export const tableLandColum1 = async (Rocket)=>{
     // 
     let div2 = document.createElement("div");
     let span2 = document.createElement("span");
-    span2.textContent = "region"
+    span2.textContent = "Region"
     let strong2 = document.createElement("strong");
     strong2.textContent = `${Rocket.region}`
     div2.append(span2, strong2)
@@ -732,7 +725,7 @@ export const tableLandColum1 = async (Rocket)=>{
     // 
     let div3 = document.createElement("div");
     let span3 = document.createElement("span");
-    span3.textContent = "latitude"
+    span3.textContent = "Latitude"
     let strong3 = document.createElement("strong");
     strong3.textContent = `${Rocket.latitude}`
     div3.append(span3, strong3)
@@ -740,7 +733,7 @@ export const tableLandColum1 = async (Rocket)=>{
     // 
     let div4 = document.createElement("div");
     let span4 = document.createElement("span");
-    span4.textContent = "longitude"
+    span4.textContent = "Longitude"
     let strong4 = document.createElement("strong");
     strong4.textContent = `${Rocket.longitude}`
     div4.append(span4, strong4)
