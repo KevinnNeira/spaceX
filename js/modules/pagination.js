@@ -159,7 +159,7 @@ export const load = async()=>{
     let section__image = document.querySelector("#section__image")
     section__image.innerHTML = `
     <div class="rocket">
-        <img class="rocketimg" src="./storage/img/icons/iconos/sticker-png-astronaut-cartoon-astronaut-drawing-space-line-art-gesture.svg">
+        <img class="rocketimg" src="">
     </div>
     `;
 

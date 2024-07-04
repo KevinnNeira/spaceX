@@ -320,7 +320,15 @@ body {
 .table__container__2 div strong{
     color: var(--color--five);
 }
-
+.loading{
+    width: 7vw;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: gray;
+}
+#loadingtxt{
+    color: white;
+}
 
 .footer {
     /* background: coral; */

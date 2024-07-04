@@ -1037,7 +1037,7 @@ export const informationDate = async (date) => {
     
     let divLast = document.createElement('div');
     let h3 = document.createElement('h3');
-    h3.textContent = "event_date_utc"
+    h3.textContent = "Event date utc"
     let small = document.createElement('small');
     small.textContent = date
     divLast.append(h3, small);
