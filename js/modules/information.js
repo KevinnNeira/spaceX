@@ -32,7 +32,7 @@ export const infoImg = async(imagen)=>{
     imgFist.style.width = "100%";
     imgFist.style.height = "100%";
     imgFist.style.borderRadius = "2px";
-    imgFist.style.boxShadow = "#298BFE 0px 0px 6px 4px";
+    imgFist.style.boxShadow = "#000000 0px 0px 6px 4px";
     div.append(imgFist);
 
     let description__item = document.querySelector("#description__item")
@@ -310,7 +310,7 @@ export const informationlaunchesCapsule = async(info)=>{
             img2.style.width = "100%";
             img2.style.marginTop = "10px";
             img2.style.borderRadius = "2px";
-            img2.style.boxShadow = "#298BFE 0px 0px 6px 4px";
+            img2.style.boxShadow = "#000000 0px 0px 6px 4px";
             divLast.append(h3, small, img2);
         } else {
             divLast.append(h3, small);
@@ -344,7 +344,7 @@ export const imformationLaunchesImg = async(imagen)=>{
         imgFist.style.width = "100%";
         imgFist.style.height = "200px";
         imgFist.style.borderRadius = "2px";
-        imgFist.style.boxShadow = "#298BFE 0px 0px 6px 4px";
+        imgFist.style.boxShadow = "#000000 0px 0px 6px 4px";
         div.append(imgFist);
 
         description__item.append(div)
@@ -528,7 +528,7 @@ export const imformationRocketLaunch = async(Rocket)=>{
     img2.style.width = "100%";
     img2.style.height = "100%";
     img2.style.borderRadius = "2px";
-    img2.style.boxShadow = "#298BFE 0px 0px 6px 4px";
+    img2.style.boxShadow = "#000000 0px 0px 6px 4px";
     divLast.append(h3, small, img2);
     div.append(divFirst, divLast);
 
@@ -549,7 +549,7 @@ export const imformationImageCrew = async(image)=>{
     imgFist.style.width = "100%";
     imgFist.style.height = "200px";
     imgFist.style.borderRadius = "2px";
-    imgFist.style.boxShadow = "#298BFE 0px 0px 6px 4px";
+    imgFist.style.boxShadow = "#000000 0px 0px 6px 4px";
     div.append(imgFist);
 
     description__item.append(div)
@@ -660,7 +660,7 @@ export const informationLaunchCrew = async (launch) => {
         img2.style.width = "100%";
         img2.style.height = "200px";
         img2.style.borderRadius = "2px";
-        img2.style.boxShadow = "#298BFE 0px 0px 6px 4px";
+        img2.style.boxShadow = "#000000 0px 0px 6px 4px";
         divLast.append(h3, small, img2);
         div.append(divFirst, divLast);
 
